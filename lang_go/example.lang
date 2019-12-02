@@ -1,0 +1,8 @@
+vec2: {x, y:float}
+
+a, b, c := 32
+
+v:Vec2 len :: float
+	v.x** v.y** sqrt
+
+
