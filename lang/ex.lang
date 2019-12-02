@@ -1,0 +1,6 @@
+Vec2: [x, y:float]
+
+pos, vel := []Vec2
+
+dt:float update ::
+	pos += vel dt *
